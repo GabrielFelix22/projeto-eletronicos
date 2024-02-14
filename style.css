@@ -10,7 +10,7 @@ img {
     min-width: 100%;
     min-height: 100%;
     position: fixed;
-    top: 0;
+    top: -0;
 }
 
 header {
