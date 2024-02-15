@@ -116,3 +116,45 @@ p {
     opacity: .5;
 }
 
+@media screen and (max-width: 500px) {
+    header {
+        display: flex;
+        top: 50px;
+        left: -50px;
+        gap: 20px;
+    }
+
+    a {
+        display: grid;
+        width: 72px;
+        height: 30px;
+    }
+
+    h1 {
+        display: inline-block;
+        position: absolute;
+        margin-top: 5em;
+        left: -20px;
+    }
+
+    p {
+        display: inline-block;
+        position: absolute;
+        margin-top: 28em;
+        left: -20px;
+    }
+
+    .ofertas {
+        display: inline-block;
+        position: absolute;
+        margin-top: 50em;
+        left: -20px;
+    }
+
+    .presentes {
+        display: inline-block;
+        position: absolute;
+        margin-top: 52.2em;
+    }
+}
+
