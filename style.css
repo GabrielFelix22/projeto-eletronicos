@@ -133,26 +133,27 @@ p {
 
     a {
         display: grid;
-        width: 72px;
+        width: 52px;
         height: 30px;
+        font-size: 8px;
     }
 
     h1 {
         display: inline-block;
         position: absolute;
-        margin-top: 5em;
+        margin-top: 1em;
         left: -100px;
-        width: 80vw;
+        width: 45vw;
         height: 50vh;
-        font-size: 32px;
+        font-size: 26px;
     }
 
     p {
         display: inline-block;
         position: absolute;
-        margin-top: 25em;
+        margin-top: 21em;
         left: -100px;
-        width: 60vw;
+        width: 45vw;
         height: 50vh;
         font-size: 18px;
     }
@@ -160,14 +161,14 @@ p {
     .ofertas {
         display: inline-block;
         position: absolute;
-        margin-top: 45em;
+        margin-top: 42em;
         left: -100px;
     }
 
     .presentes {
         display: inline-block;
         position: absolute;
-        margin-top: 54em;
+        margin-top: 50em;
         left: -100px;
     }
 }
