@@ -119,9 +119,9 @@ p {
 @media screen and (max-width: 500px) {
     header {
         display: flex;
-        top: 50px;
+        top: 25px;
         left: -50px;
-        gap: 20px;
+        gap: 10px;
     }
 
     img {
@@ -141,27 +141,34 @@ p {
         display: inline-block;
         position: absolute;
         margin-top: 5em;
-        left: -20px;
+        left: -100px;
+        width: 80vw;
+        height: 50vh;
+        font-size: 32px;
     }
 
     p {
         display: inline-block;
         position: absolute;
-        margin-top: 28em;
-        left: -20px;
+        margin-top: 25em;
+        left: -100px;
+        width: 60vw;
+        height: 50vh;
+        font-size: 18px;
     }
 
     .ofertas {
         display: inline-block;
         position: absolute;
-        margin-top: 50em;
-        left: -20px;
+        margin-top: 45em;
+        left: -100px;
     }
 
     .presentes {
         display: inline-block;
         position: absolute;
-        margin-top: 52.2em;
+        margin-top: 54em;
+        left: -100px;
     }
 }
 
