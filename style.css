@@ -124,6 +124,13 @@ p {
         gap: 20px;
     }
 
+    img {
+        display: inline-block;
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+    }
+
     a {
         display: grid;
         width: 72px;
